@@ -1,12 +1,5 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/go,code
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,code
-
-### Code ###
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-*.code-workspace
+# Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode
 
 ### Go ###
 # Binaries for programs and plugins
@@ -28,6 +21,21 @@
 ### Go Patch ###
 /vendor/
 /Godeps/
-bin/
 
-# End of https://www.toptal.com/developers/gitignore/api/go,code
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/go,visualstudiocode
